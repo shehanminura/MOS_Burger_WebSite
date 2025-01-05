@@ -1,0 +1,76 @@
+body{
+    background-color: #000000;
+
+}
+hr{
+    
+    height: 5px;
+    background-color:  #ffd32a;
+    
+    padding: -300;
+}
+
+#mainBtn {
+    background-color: #ffd32a; 
+    font-weight: 600;
+    color: #000000;
+    margin-top: 15px;
+    font-size: 2vw;
+    border: none; /* Removes default border */
+    border-radius: 10px; /* User-friendly rounded corners */
+    padding: 10px 20px; /* Adds comfortable spacing inside the button */
+    cursor: pointer; /* Changes cursor to pointer for better UX */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Hover effect */
+#mainBtn:hover {
+    background-color: #f1f1f1; /* Slightly lighter black for hover */
+    transform: scale(1.05); /* Subtle zoom effect */
+    color: #ffd32a; /* Slightly lighter text color */
+}
+#mainExitBtn{
+    background-color: #FFBD59;
+    font-weight: bolder;
+    color: #FF3132;
+    margin-top: 20px;
+    font-size: 1vw;
+    
+}
+
+#search-button{
+    background-color:  #ffd32a;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 1vw;
+    
+}
+
+#subBtnS{
+    background-color:  #ffd32a;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 1vw;
+    
+}
+
+#titleText{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+#partition{
+    background-color: #4b0303;
+    width: 100%;
+    height: 500px;
+    margin-top: -16px;
+}
+
+#subtitle{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2vw;
+}
